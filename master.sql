@@ -15,7 +15,7 @@
 -- CREATE DATABASE testrep;
 
 
--- jalankan di master dan ulangi di slave
+-- jalankan di master dan ulangi di slave digunakan untuk proxysql
 CREATE USER 'appuser'@'%' IDENTIFIED BY 'apppass';
 GRANT ALL PRIVILEGES ON *.* TO 'appuser'@'%';
 FLUSH PRIVILEGES;
